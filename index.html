@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div>
+<h1 id="Titulo" >Cadastro para Emprego</h1>
+<p id="Subtitulo" >Complete suas informações</p>
+<br>
+    </div>
+
+    <form>
+<fieldset>
+<div>
+<label>Nome</label>
+<input type="text" name="Nome" id="Nome"> 
+</div>
+
+<div>
+<label>Sobrenome</label>
+<input type="text" name="Sobrenome" id="Sobrenome">
+</div>
+</fieldset>
+
+
+<div>
+<label>Email</label>
+<input type="email" name="Email" id="Email">
+</div>
+    <label>Senha</label>
+    <input type="password" name="Senha" id="Senha">
+    </div>
+    
+<div class="campo">
+    <label>De qual lado da aplicação você desenvolve?</label>
+    <label>
+        <input type="radio" name="devweb" value="frontend">front-end
+    </label>
+    <label>
+        <input type="radio" name="devweb" value="backend">Back-end
+    </label>
+    <label>
+        <input type="radio" name="devweb" value="fullstack">Fullstack
+    </label>
+</div><br>
+
+<div class="grupo">
+    <label>Quais desses Hobbies você mais se identifica?</label>
+    <label><br>
+        <input type="radio" name="devweb" value="Ler">Ler
+    </label><br>
+    <label>
+        <input type="radio" name="devweb" value="Assistir Filme">Assistir Filme
+    </label>
+    <label><br>
+        <input type="radio" name="devweb" value="Jogar Bola">Jogar Bola 
+    </label>
+    <label><br>
+        <input type="radio" name="devweb" value="Jogar videogame">Jogar videogame
+    </label><br><br>
+<div class="grupo">
+    <label>Qual o nivel do seu conhecimento?</label>
+    <select id="Conhecimento">
+        <option selected disabled value="">Selecione</option>
+        <option>Muito</option>
+        <option>Mais ou Menos</option>
+        <option>Pouco</option>
+    </select>
+   
+</div>
+
+<fieldset class="grupo">
+<div id="check">
+    <label>Selecione as tecnologias que ultiliza:</label>
+    <input type="checkbox" name="Tecnologia1" id="Tecnologia1" value="HTML">
+    <label for="tecnologia1">HTML</label>
+    <input type="checkbox" name="Tecnologia2" id="Tecnologia2" value="CSS">
+    <label for="tecnologia2">CSS</label>
+    <input type="checkbox" name="Tecnologia3" id="Tecnologia3" value="javaScript">
+    <label for="tecnologia3">javaScript</label>
+    <input type="checkbox" name="Tecnologia4" id="Tecnologia4" value="Python">
+    <label for="tecnologia4">Python</label>
+    <input type="checkbox" name="Tecnologia5" id="Tecnologia5" value="Java">
+    <label for="tecnologia5">Java</label>
+   
+</div>
+</fieldset>
+
+<div>
+<br>
+<label>Conte um pouco da sua experiencia</label>
+<textarea rows="2" style="width: 250px;" name="experiencia" id="experiencia"></textarea>
+</div>
+
+<button type="submit">Concluido</button>
+</form>
+</body>
+</html>
